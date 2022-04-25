@@ -71,24 +71,24 @@ export const Experiences = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                                <div class="h-full w-6 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                            <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-1 bg-blue-800 pointer-events-none"></div>
                                 </div>
-                                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+                                <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
                             </div>
                         </div>
 
-                        <div class="flex md:contents">
-                            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                                <div class="h-full w-6 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-blue-800 pointer-events-none"></div>
+                        <div className="flex md:contents">
+                            <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="h-full w-6 flex items-center justify-center">
+                                    <div className="h-full w-1 bg-blue-800 pointer-events-none"></div>
                                 </div>
-                                <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
+                                <div className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-blue-500 shadow"></div>
                             </div>
-                            <div class=" col-start-6 col-end-12 p-4 rounded-xl my-4 mr-auto  w-10/12">
+                            <div className=" col-start-6 col-end-12 p-4 rounded-xl my-4 mr-auto  w-10/12">
                                 <div className="md:flex justify-between">
-                                    <h3 class="font-semibold text-lg mb-1">
+                                    <h3 className="font-semibold text-lg mb-1">
                                         Auxiliar de Almoxarifado
                                     </h3>
                                     <a
@@ -111,7 +111,7 @@ export const Experiences = () => {
                                 <p className="block mb-2 text-sm font-normal leading-none text-gray-400">
                                     Abr 2018 - Abr 2019
                                 </p>
-                                <div class="text-justify">
+                                <div className="text-justify">
                                     <p className="flex flex-col my-2">
                                         <span className="my-2">
                                             - Reposição de estoque;

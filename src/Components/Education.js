@@ -24,15 +24,15 @@ export const Education = () => {
             id="education">
             <div className="max-w-6xl relative mx-auto flex sm:px-0 px-10 flex-col items-start sm:items-center justify-center">
                 <h2 className="text-gray-900 text-3xl font-bold">Educação</h2>
-                <ol class="items-center sm:flex py-6 w-full">
+                <ol className="items-center sm:flex py-6 w-full">
                     {courses.map((item) => (
                         <li
                             key={item.name}
-                            className="relative mb-6 lg:px-5 sm:mb-0 w-full">
-                            <div class="flex items-center">
+                            NameName="relative mb-6 lg:px-5 sm:mb-0 w-full">
+                            <div className="flex items-center">
                                 <div class="flex z-10 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-0 ring-gray-50  sm:ring-8 shrink-0">
                                     <svg
-                                        class="w-3 h-3 text-blue-600 "
+                                        className="w-3 h-3 text-blue-600 "
                                         fill="currentColor"
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -42,11 +42,11 @@ export const Education = () => {
                                             clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <div class="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
+                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
                             </div>
-                            <div class="mt-3 sm:pr-8">
+                            <div className="mt-3 sm:pr-8">
                                 <div className="sm:flex justify-between">
-                                    <h3 class="text-lg font-semibold text-slate-900 ">
+                                    <h3 className="text-lg font-semibold text-slate-900 ">
                                         {item.name}
                                     </h3>
                                     <a
@@ -66,7 +66,7 @@ export const Education = () => {
                                         </svg>
                                     </a>
                                 </div>
-                                <time class="block mb-2 text-sm font-normal leading-none text-gray-400 ">
+                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">
                                     {item.date}
                                 </time>
                             </div>
